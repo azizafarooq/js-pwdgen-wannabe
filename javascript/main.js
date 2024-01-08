@@ -10,7 +10,7 @@ const coloreUtente = prompt("Qual è il tuo colore preferito?");
 console.log(coloreUtente);
 
 const resultElement = nomeUtente + cognomeUtente +
-coloreUtente + "23";
+coloreUtente +"23";
 console.log(resultElement);
 
 passwordInsicurissima.innerText = "La tua password è " + resultElement;
